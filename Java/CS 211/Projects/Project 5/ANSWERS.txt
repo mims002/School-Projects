@@ -1,0 +1,50 @@
+PROBLEM 1: TESTING
+==================
+
+(10%) The correct implementation is #: (fill in your answer below
+imp???
+
+2,6,7,8
+--------------------------------------------------------------------------------
+
+KNOWN FAULTY IMPLEMENTATIONS
+----------------------------
+(4%) Describe the general problems with imp11
+
+ It failed the multiple mode in the same list for integers, doubles and String.
+ It only returned the first one instead of all of them.
+
+(4%) Describe the general problems with imp12
+
+ It failed the multiple mode in the same list with negative integer.
+ It only returned the first one instead of all of them.
+
+(4%) Describe the general problems with imp13
+
+ It failed the tests for the mode function with empty list.
+ 
+--------------------------------------------------------------------------------
+
+PROBLEM 2: DEBUGGING
+====================
+
+--------------------------------------------------------------------------------
+(55%) Include the command line you found to pass as many phases as
+possible. Include your NetID at the beginning.  To complete all
+phases, a total of 29 command line args including NetID are required.
+
+
+mmondal 0 18 17 -22 1 14 0 0 0 0 abcdefabcdef 0 6 12 1 3 3 10 0 "a closed mouth gathers no feet" 1 1 1 10 1 1 1 0
+--------------------------------------------------------------------------------
+(5%) Describe your experience using the debugger. What helped, what
+frustrated, and what lessons will you take forward? Limit your
+description to one to two paragraphs.
+
+Using the debugger made things easy to pinpoint what each number I input was doing. I could also make changes to each variable 
+while I was debugging it which helped speed up debugging process. One thing that frustrating was I couldn't go back while debugging, only forward. 
+In the future I will be will use the debug tool to run my faulty code and change variables while running or watch how certain variables change to help 
+find the problem with it.  
+
+
+
+

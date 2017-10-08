@@ -1,0 +1,82 @@
+/* sample_run
+*  Mrinmoy Mondal
+*  mmondal
+*/
+Script started on Mon 01 May 2017 12:56:18 AM EDT
+bash-4.1$ uname -a
+Linux zeus-1 2.6.32-696.1.1.el6.x86_64 #1 SMP Tue Apr 11 17:13:24 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.1$ ls
+Application.class  Application.java  DirectFile.class  DirectFile.java	Disk.class  Disk.java  mountain records.txt  sample_run
+bash-4.1$ javac Application.java 
+bash-4.1$ ls
+Application.class  Application.java  DirectFile.class  DirectFile.java	Disk.class  Disk.java  mountain records.txt  sample_run
+bash-4.1$ java Application
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Wallface
+Wallface, United States, 3700
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Big Mountain
+Record not found
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 1
+Enter Name: Big Mountain
+Enter Country: Belgium
+Enter altitude: 15000
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Big Mountain
+Big Mountain, Belgium, 15000
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Mount Baker
+Baker, Mount, United States, 10778
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Hole in the Ground
+Record not found
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 1
+Enter Name: Hole in the Ground
+Enter Country: France
+Enter altitude: -17
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 2
+Enter Name: Hole in the Ground
+Hole in the Ground, France, -17
+
+Insert new record: 1
+Find record: 2
+Quit: 3
+: 3
+bash-4.1$ ls
+Application.class  Application.java  DirectFile.class  DirectFile.java	Disk.class  Disk.java  mountain records.txt  sample_run
+bash-4.1$ exit
+exit
+
+Script done on Mon 01 May 2017 01:02:10 AM EDT

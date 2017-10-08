@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="debugme"/>
+	<classpathentry excluding="imp1/|imp10/|imp11/|imp12/|imp13/|imp2/|imp3/|imp4/|imp5/|imp6/|imp7/|imp8/|imp9/" kind="src" path="testme"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Users/Mrinmoy Mondal/SkyDrive/Documents/CS 211/Projects/Project 5/testme/imp5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

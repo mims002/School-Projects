@@ -1,0 +1,12 @@
+int isTmin(int);
+int test_isTmin(int);
+int thirdBits();
+int test_thirdBits();
+int anyEvenBit();
+int test_anyEvenBit();
+int getByte(int, int);
+int test_getByte(int, int);
+int addOK(int, int);
+int test_addOK(int, int);
+int isPositive(int);
+int test_isPositive(int);
